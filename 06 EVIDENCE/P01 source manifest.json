@@ -1,0 +1,333 @@
+[
+  {
+    "id": "E01",
+    "title": "01_Бюджет_разработки_дорожная_карта_тех.xlsx",
+    "size_bytes": 22683,
+    "sha256": "d69c2ba8f8fdfe51e6d1d48425a0481a4660a8f043a057c55b3bacffc62e03f0",
+    "pages": null,
+    "sheets": [
+      {
+        "name": "Бюджет_разработки",
+        "rows": 30,
+        "cols": 7,
+        "formulas": 0,
+        "errors": []
+      },
+      {
+        "name": "Оргструктура",
+        "rows": 38,
+        "cols": 5,
+        "formulas": 0,
+        "errors": []
+      },
+      {
+        "name": "Дорожная_карта",
+        "rows": 63,
+        "cols": 10,
+        "formulas": 0,
+        "errors": []
+      }
+    ],
+    "extraction_limit": "Машинное извлечение; содержание источника не равно независимому испытанию"
+  },
+  {
+    "id": "E02",
+    "title": "02_Бизнес-план_2026-2030_ред_11.09.2026.pdf",
+    "size_bytes": 690775,
+    "sha256": "53eef04d694f22a4dab3a65192186f2a71c3e96dbf17ccc6166cc757d2318b66",
+    "pages": 41,
+    "sheets": null,
+    "extraction_limit": "Машинное извлечение; содержание источника не равно независимому испытанию"
+  },
+  {
+    "id": "E03",
+    "title": "03_Финансовая_модель_2026-2030_от_11.09.2026.xlsx",
+    "size_bytes": 324144,
+    "sha256": "fbdcc5dcfb05c600ff181e0554a8fa2e1ca9300ba4f79c5d93139d75fa42dde1",
+    "pages": null,
+    "sheets": [
+      {
+        "name": "Инструкция",
+        "rows": 46,
+        "cols": 9,
+        "formulas": 41,
+        "errors": []
+      },
+      {
+        "name": "Соответствие_шаблону",
+        "rows": 38,
+        "cols": 5,
+        "formulas": 0,
+        "errors": []
+      },
+      {
+        "name": "Допущения",
+        "rows": 105,
+        "cols": 11,
+        "formulas": 14,
+        "errors": []
+      },
+      {
+        "name": "Сценарии",
+        "rows": 17,
+        "cols": 7,
+        "formulas": 2,
+        "errors": []
+      },
+      {
+        "name": "Курсы_Индексы",
+        "rows": 14,
+        "cols": 71,
+        "formulas": 311,
+        "errors": []
+      },
+      {
+        "name": "Клиенты_Реестр",
+        "rows": 129,
+        "cols": 9,
+        "formulas": 120,
+        "errors": []
+      },
+      {
+        "name": "реестр договоров",
+        "rows": 29,
+        "cols": 12,
+        "formulas": 44,
+        "errors": []
+      },
+      {
+        "name": "Драйверы_Выручка",
+        "rows": 90,
+        "cols": 71,
+        "formulas": 3918,
+        "errors": []
+      },
+      {
+        "name": "Драйверы_Расходы",
+        "rows": 79,
+        "cols": 71,
+        "formulas": 3006,
+        "errors": []
+      },
+      {
+        "name": "ОПиУ",
+        "rows": 30,
+        "cols": 71,
+        "formulas": 1295,
+        "errors": []
+      },
+      {
+        "name": "Оборотный_капитал",
+        "rows": 20,
+        "cols": 71,
+        "formulas": 775,
+        "errors": []
+      },
+      {
+        "name": "ДДС",
+        "rows": 27,
+        "cols": 71,
+        "formulas": 1035,
+        "errors": []
+      },
+      {
+        "name": "Баланс",
+        "rows": 27,
+        "cols": 71,
+        "formulas": 1100,
+        "errors": []
+      },
+      {
+        "name": "Финансирование",
+        "rows": 91,
+        "cols": 71,
+        "formulas": 600,
+        "errors": []
+      },
+      {
+        "name": "Юнит_экономика",
+        "rows": 22,
+        "cols": 71,
+        "formulas": 775,
+        "errors": []
+      },
+      {
+        "name": "Факт_План",
+        "rows": 40,
+        "cols": 71,
+        "formulas": 645,
+        "errors": []
+      },
+      {
+        "name": "Оценка",
+        "rows": 69,
+        "cols": 8,
+        "formulas": 36,
+        "errors": []
+      },
+      {
+        "name": "Проверки",
+        "rows": 25,
+        "cols": 5,
+        "formulas": 33,
+        "errors": []
+      },
+      {
+        "name": "Источники_данных",
+        "rows": 52,
+        "cols": 5,
+        "formulas": 0,
+        "errors": []
+      }
+    ],
+    "extraction_limit": "Машинное извлечение; содержание источника не равно независимому испытанию"
+  },
+  {
+    "id": "E04",
+    "title": "04_Договор_Nova_Cloud_29.09.2025.pdf",
+    "size_bytes": 6973061,
+    "sha256": "d876456e950d6e837e5ad23101ced6d55924e4b0142bf02ed0cbcbe53f2f7084",
+    "pages": 12,
+    "sheets": null,
+    "extraction_limit": "OCR, выборочная визуальная сверка; подлинность не удостоверена"
+  },
+  {
+    "id": "E05",
+    "title": "05_Договор_о_совместной_деятельности_19-ADA-2025.pdf",
+    "size_bytes": 3116710,
+    "sha256": "f7568fba8d519278da4c03599479ab94a4fcac39979beea76b5fc84333766e8b",
+    "pages": 6,
+    "sheets": null,
+    "extraction_limit": "OCR, выборочная визуальная сверка; подлинность не удостоверена"
+  },
+  {
+    "id": "E06",
+    "title": "Кадровые документы разработчика KZ-01",
+    "size_bytes": 2638383,
+    "sha256": "9dc76bd75d9fdab45a6c2b91909b65e945dea41d304e53660a138252a9496853",
+    "pages": 31,
+    "sheets": null,
+    "extraction_limit": "Машинное извлечение; содержание источника не равно независимому испытанию"
+  },
+  {
+    "id": "E07",
+    "title": "Трудовые документы разработчика UZ-01",
+    "size_bytes": 7033258,
+    "sha256": "7fadb0759823d2ad058ecb25adce2f559bb62d09259c8425829ac4533608de0f",
+    "pages": 15,
+    "sheets": null,
+    "extraction_limit": "OCR, выборочная визуальная сверка; подлинность не удостоверена"
+  },
+  {
+    "id": "E08",
+    "title": "Трудовые документы разработчика UZ-02 прежние",
+    "size_bytes": 5228120,
+    "sha256": "35d71c9099d8890b4539ad348b5a87f2e02253dfa2888647868ab4fe8c2fa7f8",
+    "pages": 11,
+    "sheets": null,
+    "extraction_limit": "OCR, выборочная визуальная сверка; подлинность не удостоверена"
+  },
+  {
+    "id": "E09",
+    "title": "Трудовые документы разработчика UZ-02 новые",
+    "size_bytes": 3099769,
+    "sha256": "f0f6095b2eb369b76a809fbd66cc548ef2da461bd5263fff6a3a264423753f8d",
+    "pages": 9,
+    "sheets": null,
+    "extraction_limit": "OCR, выборочная визуальная сверка; подлинность не удостоверена"
+  },
+  {
+    "id": "E10",
+    "title": "10_Отчёт_SAST-DAST_2026-10-17.html",
+    "size_bytes": 35841,
+    "sha256": "bbef630842e1517d938c8a7eb7b3581fe521fcb69816277f65b878d0ea063f37",
+    "pages": null,
+    "sheets": null,
+    "extraction_limit": "Машинное извлечение; содержание источника не равно независимому испытанию"
+  },
+  {
+    "id": "E11",
+    "title": "11_Отчёт_SAST-DAST_повторный_2026-10-13.html",
+    "size_bytes": 29483,
+    "sha256": "7248a517e1de5d784f2c5254b2f5da768403795d689128d7787895d132beac5c",
+    "pages": null,
+    "sheets": null,
+    "extraction_limit": "Машинное извлечение; содержание источника не равно независимому испытанию"
+  },
+  {
+    "id": "E12",
+    "title": "12_Отчёт_SonarQube_08.10.2026.pdf",
+    "size_bytes": 125515,
+    "sha256": "b3036731b9f1d7369d0106590f95b8a3ff0006cc78361dd1fdb8faae6d7446ff",
+    "pages": 4,
+    "sheets": null,
+    "extraction_limit": "Машинное извлечение; содержание источника не равно независимому испытанию"
+  },
+  {
+    "id": "E13",
+    "title": "13_Дистрибутив_On-Prem_2.13.zip",
+    "size_bytes": 22207,
+    "sha256": "e3cab35b1ea8ba24ba00aaa183d2715edfcfa2655281b2e0eeeec6e3b1888117",
+    "pages": null,
+    "sheets": null,
+    "extraction_limit": "Машинное извлечение; содержание источника не равно независимому испытанию"
+  },
+  {
+    "id": "L01",
+    "title": "PanDev_Metrics_технический_аудит_211026.docx",
+    "size_bytes": 73682,
+    "sha256": "83e90b3fac2a495a9173c8b22d5023c8cbf32adb5831be2aef3bb3f12eec6212",
+    "pages": null,
+    "sheets": null,
+    "extraction_limit": "Машинное извлечение; содержание источника не равно независимому испытанию"
+  },
+  {
+    "id": "L02",
+    "title": "PanDev_Metrics_технический_аудит_211026.pdf",
+    "size_bytes": 678479,
+    "sha256": "78014067fdd31af59ff530e6599ea866321b2a68e57462df639d62e5c91b3b6a",
+    "pages": 28,
+    "sheets": null,
+    "extraction_limit": "Машинное извлечение; содержание источника не равно независимому испытанию"
+  },
+  {
+    "id": "L03",
+    "title": "PanDev_Бюджет_разработки_оргструктура_дорожная_карта.xlsx",
+    "size_bytes": 15336,
+    "sha256": "42fa0be59f8a37cf5bf92d33213db0bc5fa20687988a171ccd3257b901c881bd",
+    "pages": null,
+    "sheets": [
+      {
+        "name": "Бюджет_разработки",
+        "rows": 30,
+        "cols": 7,
+        "formulas": 0,
+        "errors": []
+      },
+      {
+        "name": "Оргструктура",
+        "rows": 38,
+        "cols": 5,
+        "formulas": 0,
+        "errors": []
+      },
+      {
+        "name": "Дорожная_карта",
+        "rows": 23,
+        "cols": 4,
+        "formulas": 0,
+        "errors": []
+      }
+    ],
+    "extraction_limit": "Машинное извлечение; содержание источника не равно независимому испытанию"
+  },
+  {
+    "id": "L04",
+    "title": "SKILL PRO PanDev Metrics 22-10-2026.docx",
+    "size_bytes": 67555,
+    "sha256": "da819c5931fe77c924cc49e4976ceb547cf497a8f6bb923957f4d3cbdf85dbb8",
+    "pages": null,
+    "sheets": null,
+    "extraction_limit": "Машинное извлечение; содержание источника не равно независимому испытанию"
+  }
+]

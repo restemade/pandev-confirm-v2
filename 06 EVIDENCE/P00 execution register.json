@@ -1,0 +1,72 @@
+[
+  {
+    "id": "P01",
+    "date": "2026-10-23",
+    "timezone": "UTC+05:00 Asia/Qyzylorda",
+    "target": "Исходные файлы по manifest E01-E13,L01-L04",
+    "operator": "Автоматизированные средства текущего сеанса; человеческое принятие не оформлено",
+    "acceptance_reference": "Учитывается в документе 17",
+    "method": "SHA-256, OOXML/PDF extraction, Windows OCR ru",
+    "result": "17 источников проинвентаризированы; ключевые сканированные положения сверены",
+    "evidence": "P01 source manifest.json",
+    "limits": "Подлинность подписей не проверена; полная ручная вычитка всех сканов не удостоверена.",
+    "evidence_recorded_time": "2026-10-23T12:59:22.968773+05:00",
+    "timestamp_note": "Время записи результата по файловой метке; начало выполнения отдельно не фиксировалось."
+  },
+  {
+    "id": "P02",
+    "date": "2026-10-23",
+    "timezone": "UTC+05:00 Asia/Qyzylorda",
+    "target": "Исходные файлы по manifest E01-E13,L01-L04",
+    "operator": "Автоматизированные средства текущего сеанса; человеческое принятие не оформлено",
+    "acceptance_reference": "Учитывается в документе 17",
+    "method": "PyYAML 6.0.3 safe_load, archive inspection, secret-presence boolean",
+    "result": "Плавающие теги, порт БД и непустой пароль в образце",
+    "evidence": "P02 distribution checks.json",
+    "limits": "Docker CLI и сеть не проверялись; пароль не публикуется.",
+    "evidence_recorded_time": "2026-10-23T13:03:36.044472+05:00",
+    "timestamp_note": "Время записи результата по файловой метке; начало выполнения отдельно не фиксировалось."
+  },
+  {
+    "id": "P03",
+    "date": "2026-10-23",
+    "timezone": "UTC+05:00 Asia/Qyzylorda",
+    "target": "Исходные файлы по manifest E01-E13,L01-L04",
+    "operator": "Автоматизированные средства текущего сеанса; человеческое принятие не оформлено",
+    "acceptance_reference": "Учитывается в документе 17",
+    "method": "Helm v3.19.0 lint/template; команды в JSON",
+    "result": "Типовые варианты успешны; словарь env отвергнут, список принят",
+    "evidence": "P03 helm checks.json",
+    "limits": "Нет установки кластера, API schema-validation и запуска.",
+    "evidence_recorded_time": "2026-10-23T13:02:41.546916+05:00",
+    "timestamp_note": "Время записи результата по файловой метке; начало выполнения отдельно не фиксировалось."
+  },
+  {
+    "id": "P04",
+    "date": "2026-10-23",
+    "timezone": "UTC+05:00 Asia/Qyzylorda",
+    "target": "Исходные файлы по manifest E01-E13,L01-L04",
+    "operator": "Автоматизированные средства текущего сеанса; человеческое принятие не оформлено",
+    "acceptance_reference": "Учитывается в документе 17",
+    "method": "Python 3.12.14, openpyxl 3.1.5, HTML rows, sums and sensitivity",
+    "result": "Sonar 2037/2053; SAST 20; usage448/261; труд95,4-127,2",
+    "evidence": "P04 reconciliations.json",
+    "limits": "Первичная достоверность сведений не установлена.",
+    "evidence_recorded_time": "2026-10-23T13:03:36.044472+05:00",
+    "timestamp_note": "Время записи результата по файловой метке; начало выполнения отдельно не фиксировалось."
+  },
+  {
+    "id": "P05",
+    "date": "2026-10-23",
+    "timezone": "UTC+05:00 Asia/Qyzylorda",
+    "target": "Исходные файлы по manifest E01-E13,L01-L04",
+    "operator": "Автоматизированные средства текущего сеанса; человеческое принятие не оформлено",
+    "acceptance_reference": "Учитывается в документе 17",
+    "method": "Excel 16.0 CalculateFullRebuild; cache comparison max(1e-7,abs(x)*1e-10)",
+    "result": "13750 формул,0 ошибок,0 отличий caches;3 разных сценария",
+    "evidence": "P05 excel recalculation.json",
+    "limits": "Проверка арифметики не удостоверяет экономические допущения и платежи.",
+    "evidence_recorded_time": "2026-10-23T13:01:47.162257+05:00",
+    "timestamp_note": "Время записи результата по файловой метке; начало выполнения отдельно не фиксировалось."
+  }
+]

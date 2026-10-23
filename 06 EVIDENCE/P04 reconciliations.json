@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-23T13:03:36.039487+05:00",
+  "tools": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "openpyxl": "3.1.5",
+    "pyyaml": "6.0.3",
+    "excel": "16.0"
+  },
+  "sonar": {
+    "types": 2037,
+    "severities": 2053,
+    "declared": 2037
+  },
+  "sast_rows": [
+    {
+      "number": 1,
+      "severity": "Critical",
+      "finding": "Spring Framework 6.2.19: CVE-2026-47884, -47890, -47892",
+      "where": "сервер",
+      "class": "CWE-1104",
+      "status": "Недостижимо"
+    },
+    {
+      "number": 2,
+      "severity": "High",
+      "finding": "CORS отражает любой Origin, если адрес веб-интерфейса не задан",
+      "where": "сервер",
+      "class": "CWE-942",
+      "status": "Принятый риск"
+    },
+    {
+      "number": 3,
+      "severity": "High",
+      "finding": "Контейнер веб-интерфейса запускается от root",
+      "where": "веб",
+      "class": "CWE-250",
+      "status": "Принятый риск"
+    },
+    {
+      "number": 4,
+      "severity": "High",
+      "finding": "Общий секрет вебхуков Linear в коде",
+      "where": "сервер",
+      "class": "CWE-798",
+      "status": "Открыто"
+    },
+    {
+      "number": 5,
+      "severity": "Medium",
+      "finding": "Запрос Basic-авторизации на служебных путях",
+      "where": "сервер",
+      "class": "-",
+      "status": "Открыто"
+    },
+    {
+      "number": 6,
+      "severity": "Medium",
+      "finding": "/actuator/prometheus без входа на служебном порту",
+      "where": "сервер",
+      "class": "CWE-200",
+      "status": "Принятый риск"
+    },
+    {
+      "number": 7,
+      "severity": "Medium",
+      "finding": "CSP: широкие источники и style-src 'unsafe-inline'",
+      "where": "веб",
+      "class": "CWE-693",
+      "status": "Принятый риск"
+    },
+    {
+      "number": 8,
+      "severity": "Medium",
+      "finding": "Ключ протокола плагинов в коде, AES/ECB",
+      "where": "сервер",
+      "class": "CWE-321, CWE-327",
+      "status": "Принятый риск"
+    },
+    {
+      "number": 9,
+      "severity": "Medium",
+      "finding": "Форма отчёта об ошибке отдаёт журнал ошибок сервера",
+      "where": "сервер",
+      "class": "CWE-209",
+      "status": "Принятый риск"
+    },
+    {
+      "number": 10,
+      "severity": "Medium",
+      "finding": "Нет заголовка HSTS",
+      "where": "сервер, веб",
+      "class": "CWE-319",
+      "status": "Принятый риск"
+    },
+    {
+      "number": 11,
+      "severity": "Medium",
+      "finding": "Нет Referrer-Policy, Permissions-Policy и заголовков Cross-Origin-*",
+      "where": "сервер, веб",
+      "class": "CWE-693",
+      "status": "Открыто"
+    },
+    {
+      "number": 12,
+      "severity": "Medium",
+      "finding": "OpenTelemetry API 1.57.0: CVE-2026-45292",
+      "where": "сервер",
+      "class": "CWE-1104",
+      "status": "Недостижимо у клиентов"
+    },
+    {
+      "number": 13,
+      "severity": "Medium",
+      "finding": "Apache HttpClient 5.5.1: CVE-2026-64607",
+      "where": "сервер",
+      "class": "CWE-1104",
+      "status": "Недостижимо"
+    },
+    {
+      "number": 14,
+      "severity": "Medium",
+      "finding": "uuid 8.3.2: CVE-2026-41907",
+      "where": "веб",
+      "class": "CWE-1104",
+      "status": "Открыто"
+    },
+    {
+      "number": 15,
+      "severity": "Medium",
+      "finding": "Базовый образ веб-интерфейса по тегу latest",
+      "where": "веб",
+      "class": "-",
+      "status": "Открыто"
+    },
+    {
+      "number": 16,
+      "severity": "Low",
+      "finding": "Ответ 500 на некорректный ввод",
+      "where": "сервер",
+      "class": "CWE-755",
+      "status": "Открыто"
+    },
+    {
+      "number": 17,
+      "severity": "Low",
+      "finding": "CORS разрешает любое расширение браузера вместе с учётными данными",
+      "where": "сервер",
+      "class": "CWE-942",
+      "status": "Открыто"
+    },
+    {
+      "number": 18,
+      "severity": "Low",
+      "finding": "В Dockerfile нет HEALTHCHECK",
+      "where": "сервер, веб",
+      "class": "-",
+      "status": "Открыто"
+    },
+    {
+      "number": 19,
+      "severity": "Low",
+      "finding": "DOMPurify 3.4.13: GHSA-6688-9rhm-gjv2, GHSA-p98j-92pf-mc4p",
+      "where": "веб",
+      "class": "CWE-1104",
+      "status": "Недостижимо"
+    },
+    {
+      "number": 20,
+      "severity": "Info",
+      "finding": "SAST, поиск секретов и сканирование зависимостей не встроены в CI",
+      "where": "процесс",
+      "class": "-",
+      "status": "Открыто"
+    }
+  ],
+  "sast_severities": {
+    "Critical": 1,
+    "High": 3,
+    "Medium": 11,
+    "Low": 4,
+    "Info": 1
+  },
+  "sast_statuses": {
+    "Недостижимо": 3,
+    "Принятый риск": 7,
+    "Открыто": 9,
+    "Недостижимо у клиентов": 1
+  },
+  "users": {
+    "rows": 22,
+    "total": 448,
+    "known_active": 261,
+    "unknown_active_installations": 4,
+    "active_known_ratio": 0.5825892857142857
+  },
+  "effort": {
+    "modernization_pm": [
+      95.39999999999999,
+      127.2
+    ],
+    "modernization_kzt": [
+      99335249.99999999,
+      132447000.0
+    ],
+    "rebuild_pm": [
+      229.79999999999998,
+      306.40000000000003
+    ],
+    "rebuild_kzt_range": [
+      281505000.0,
+      525476000.0000001
+    ],
+    "capitalized_claim_kzt": 75500000
+  },
+  "roadmap": [
+    {
+      "period": "0-6 месяцев",
+      "backlog_sum": 4.85,
+      "capacity_gross": 48,
+      "share": 0.10104166666666665
+    },
+    {
+      "period": "2027",
+      "backlog_sum": 9.5,
+      "capacity_gross": 132,
+      "share": 0.07196969696969698
+    },
+    {
+      "period": "2028",
+      "backlog_sum": 6.0,
+      "capacity_gross": 264,
+      "share": 0.022727272727272728
+    },
+    {
+      "period": "2029",
+      "backlog_sum": 3,
+      "capacity_gross": 348,
+      "share": 0.008620689655172414
+    }
+  ],
+  "budget_version_differences": {
+    "total_changed_cells": 432,
+    "note": "Различия структуры, текста и значений, не число ошибок."
+  }
+}

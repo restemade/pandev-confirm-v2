@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-23",
+  "local_workspace": "До загрузки рабочая папка не содержала исходных репозиториев; переданный ZIP содержит только конфигурации",
+  "connector": "GitHub search_repositories query pandev-metrics",
+  "result": {
+    "repositories": []
+  },
+  "gitlab_url": null,
+  "limit": "Пустой результат GitHub не является доказательством отсутствия private GitLab. Remote, branch, full SHA и tag не установлены независимо."
+}

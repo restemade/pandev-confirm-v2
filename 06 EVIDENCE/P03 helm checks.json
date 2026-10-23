@@ -1,0 +1,81 @@
+{
+  "tool_sha256": "6488630c2e5d5945ed990fa02fd9e99f9c6792cdbcd79eb264b6cfb90179d2d1",
+  "source": "https://get.helm.sh/helm-v3.19.0-windows-amd64.zip",
+  "tests": [
+    {
+      "test": "version",
+      "command": "helm version --short",
+      "exit": 0,
+      "stderr": "",
+      "result": "v3.19.0+g3d8990f\n"
+    },
+    {
+      "test": "lint_default",
+      "command": "helm lint <chart>",
+      "exit": 0,
+      "stderr": "",
+      "result": "==> Linting <chart>\n[INFO] Chart.yaml: icon is recommended\n\n1 chart(s) linted, 0 chart(s) failed\n"
+    },
+    {
+      "test": "lint_urls",
+      "command": "helm lint <chart> --set serverUrl=https://api.example.test --set workspaceUrl=https://app.example.test",
+      "exit": 0,
+      "stderr": "",
+      "result": "==> Linting <chart>\n[INFO] Chart.yaml: icon is recommended\n\n1 chart(s) linted, 0 chart(s) failed\n"
+    },
+    {
+      "test": "template_default",
+      "command": "helm template audit <chart>",
+      "exit": 0,
+      "stderr": "",
+      "result": {
+        "resources": 8,
+        "front_url_present": false,
+        "api_base_url_present": true,
+        "networkpolicy_present": false
+      }
+    },
+    {
+      "test": "template_external",
+      "command": "helm template audit <chart> --set postgresql.enabled=false --set externalDatabase.host=db.example.test --set externalDatabase.user=audit --set externalDatabase.existingSecret=test-secret --set serverUrl=https://api.example.test --set workspaceUrl=https://app.example.test",
+      "exit": 0,
+      "stderr": "",
+      "result": {
+        "resources": 5,
+        "front_url_present": false,
+        "api_base_url_present": true,
+        "networkpolicy_present": false
+      }
+    },
+    {
+      "test": "template_ingress",
+      "command": "helm template audit <chart> --set ingress.enabled=true --set serverUrl=https://api.example.test --set workspaceUrl=https://app.example.test",
+      "exit": 0,
+      "stderr": "",
+      "result": {
+        "resources": 9,
+        "front_url_present": false,
+        "api_base_url_present": true,
+        "networkpolicy_present": false
+      }
+    },
+    {
+      "test": "template_front_url_override",
+      "command": "helm template audit <chart> --set serverUrl=https://api.example.test --set workspaceUrl=https://app.example.test --set server.env.FRONT_URL=https://app.example.test",
+      "exit": 1,
+      "result": {
+        "front_url_present": false
+      },
+      "stderr": "Error: YAML parse error on pandev-metrics-distribution/templates/server-deployment.yaml: error converting YAML to JSON: yaml: line 107: did not find expected '-' indicator\n\nUse --debug flag to render out invalid YAML\n"
+    },
+    {
+      "test": "template_front_url_list_supported",
+      "command": "helm template audit <chart> --set serverUrl=https://api.example.test --set workspaceUrl=https://app.example.test --set server.env[0].name=FRONT_URL --set server.env[0].value=https://app.example.test",
+      "exit": 0,
+      "result": {
+        "front_url_present": true
+      },
+      "stderr": ""
+    }
+  ]
+}

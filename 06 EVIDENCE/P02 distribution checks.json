@@ -1,0 +1,75 @@
+{
+  "compose": {
+    "images": {
+      "pandev-metrics-server": "pandevofficial/pandev-metrics:latest",
+      "pandev-metrics-workspace": "pandevofficial/pandev-metrics-backoffice:latest",
+      "postgres": "postgres:16"
+    },
+    "ports": {
+      "pandev-metrics-server": [
+        "8080:8080"
+      ],
+      "pandev-metrics-workspace": [
+        "8090:80"
+      ],
+      "postgres": [
+        "5432:5432"
+      ]
+    },
+    "healthchecks": {
+      "pandev-metrics-server": false,
+      "pandev-metrics-workspace": false,
+      "postgres": true
+    },
+    "env": [
+      {
+        "key": "POSTGRES_DB",
+        "nonempty": true,
+        "is_password": false,
+        "length": 8
+      },
+      {
+        "key": "POSTGRES_USER",
+        "nonempty": true,
+        "is_password": false,
+        "length": 8
+      },
+      {
+        "key": "POSTGRES_PASSWORD",
+        "nonempty": true,
+        "is_password": true,
+        "length": null
+      },
+      {
+        "key": "API_BASE_URL",
+        "nonempty": true,
+        "is_password": false,
+        "length": 21
+      }
+    ]
+  },
+  "helm": {
+    "chart": {
+      "apiVersion": "v2",
+      "name": "pandev-metrics-distribution",
+      "description": "Universal Helm Chart for PanDev Metrics Distribution",
+      "type": "application",
+      "version": "2.0.2",
+      "appVersion": "5.13.0",
+      "kubeVersion": ">=1.28.0-0"
+    },
+    "server_image": {
+      "repository": "pandevofficial/pandev-metrics",
+      "tag": "5.13.0",
+      "pullPolicy": "Always"
+    },
+    "web_image": {
+      "repository": "pandevofficial/pandev-metrics-backoffice",
+      "tag": "2.13.0",
+      "pullPolicy": "Always"
+    },
+    "replicas": 1,
+    "ingress_enabled": false,
+    "securityContext": {}
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "checked_at": "2026-10-23T14:44:58.796911+05:00",
+  "docx_count": 23,
+  "xlsx_count": 2,
+  "pdf_count": 23,
+  "font": "Times New Roman",
+  "text_color": "black",
+  "long_dashes": 0,
+  "pdf_checks": [
+    {
+      "file": "00 ADMIN/00 Сопроводительное письмо SKILL PRO.docx",
+      "pages": 2,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "00 ADMIN/00 Executive Summary для инвестора.docx",
+      "pages": 3,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "01 ОРГАНИЗАЦИЯ АУДИТА/01 Договор и ТЗ на технологический аудит.docx",
+      "pages": 5,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "01 ОРГАНИЗАЦИЯ АУДИТА/02 Программа проведения технологического аудита.docx",
+      "pages": 7,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "01 ОРГАНИЗАЦИЯ АУДИТА/03 Декларация независимости и компетенции экспертов.docx",
+      "pages": 1,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "01 ОРГАНИЗАЦИЯ АУДИТА/04 Реестр исходных данных и доказательств.docx",
+      "pages": 10,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "02 ТЕХНИЧЕСКАЯ ЭКСПЕРТИЗА/05 Протокол экспертной оценки архитектуры.docx",
+      "pages": 7,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "02 ТЕХНИЧЕСКАЯ ЭКСПЕРТИЗА/06 Отчет о качестве исходного кода.docx",
+      "pages": 6,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "02 ТЕХНИЧЕСКАЯ ЭКСПЕРТИЗА/07 Программа и результаты функциональных испытаний.docx",
+      "pages": 8,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "02 ТЕХНИЧЕСКАЯ ЭКСПЕРТИЗА/08 Программа и результаты нагрузочных испытаний.docx",
+      "pages": 7,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "02 ТЕХНИЧЕСКАЯ ЭКСПЕРТИЗА/09 Отчет о технических рисках кибербезопасности.docx",
+      "pages": 12,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "02 ТЕХНИЧЕСКАЯ ЭКСПЕРТИЗА/10 Отчет об инфраструктуре DevOps и эксплуатации.docx",
+      "pages": 7,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "03 ИНВЕСТИЦИОННАЯ ЭКСПЕРТИЗА/11 Заключение о правах на ПО и лицензиях.docx",
+      "pages": 7,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "03 ИНВЕСТИЦИОННАЯ ЭКСПЕРТИЗА/12 Экспертная оценка трудозатрат и технического бюджета.docx",
+      "pages": 8,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "03 ИНВЕСТИЦИОННАЯ ЭКСПЕРТИЗА/13 Реестр несоответствий и технических рисков.docx",
+      "pages": 21,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "03 ИНВЕСТИЦИОННАЯ ЭКСПЕРТИЗА/14 План корректирующих мероприятий.docx",
+      "pages": 10,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "04 ИТОГОВЫЕ ЗАКЛЮЧЕНИЯ/15 Полный отчет независимого технологического аудита.docx",
+      "pages": 20,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "04 ИТОГОВЫЕ ЗАКЛЮЧЕНИЯ/16 Аудиторское заключение официальная форма KZ.docx",
+      "pages": 3,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "04 ИТОГОВЫЕ ЗАКЛЮЧЕНИЯ/16 Аудиторское заключение официальная форма RU.docx",
+      "pages": 3,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "05 ПОДПИСАНИЕ И ПРИЛОЖЕНИЯ/17 Единый лист участников и подписания.docx",
+      "pages": 4,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "05 ПОДПИСАНИЕ И ПРИЛОЖЕНИЯ/18 Акт оказанных услуг.docx",
+      "pages": 2,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "05 ПОДПИСАНИЕ И ПРИЛОЖЕНИЯ/20 Перечень непроведенных проверок.docx",
+      "pages": 6,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    },
+    {
+      "file": "05 ПОДПИСАНИЕ И ПРИЛОЖЕНИЯ/21 Контрольный лист готовности пакета.docx",
+      "pages": 2,
+      "fonts": [
+        "TimesNewRomanPS-BoldMT",
+        "TimesNewRomanPSMT"
+      ],
+      "colors": [
+        0
+      ]
+    }
+  ],
+  "flags": [],
+  "note": "Supersedes the pre-centralization formatting validation. Company data remains sourced to A01."
+}

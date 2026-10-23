@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-23T14:44:58.796911+05:00",
+  "version": "C1",
+  "docx_count": 23,
+  "xlsx_count": 2,
+  "risk_count": 23,
+  "pdf_pages": 161,
+  "word_open_export": "23 DOCX opened in Word 16.0, TOC updated and control PDFs exported",
+  "layout_geometry_field_flags": [],
+  "visual_review": "All 27 page contact sheets reviewed; unified document pages reviewed at larger scale; both workbook change previews reviewed.",
+  "signature_policy": "All participant names, authority details, approvals and signature fields are centralized in document 17. No unfilled fields remain in the other DOCX or XLSX.",
+  "limits": "No additional product tests performed. Existing audit statuses and material limitations retained. Removal of distributed signature fields is an editorial restructuring, not evidence of signing or test completion."
+}
